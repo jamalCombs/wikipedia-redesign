@@ -1,10 +1,5 @@
-/*!
- * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -19,7 +14,6 @@ hr {
   max-width: 50px;
 }
 
-
 hr.main-page-header {
   border-color: #5a5a5b;
 }
@@ -31,7 +25,8 @@ a {
   color: #FF5A5A;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #eb3812;
 }
 
@@ -39,7 +34,11 @@ h1 {
   color: #47a0a5;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -98,7 +97,8 @@ aside {
   text-transform: uppercase;
 }
 
-.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
   color: #eb3812;
 }
 
@@ -109,23 +109,28 @@ aside {
   text-transform: uppercase;
 }
 
-.navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
+.navbar-default .nav>li>a,
+.navbar-default .nav>li>a:focus {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
   color: #5a5a5b;
 }
 
-.navbar-default .nav>li>a:hover, .navbar-default .nav>li>a:focus:hover {
+.navbar-default .nav>li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
   color: #FF5A5A;
 }
 
-.navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
-  color: #FF5A5A; !important;
+.navbar-default .nav>li.active>a,
+.navbar-default .nav>li.active>a:focus {
+  color: #FF5A5A;
+  !important;
   background-color: transparent;
 }
 
-.navbar-default .nav>li.active>a:hover, .navbar-default .nav>li.active>a:focus:hover {
+.navbar-default .nav>li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
   background-color: transparent;
 }
 
@@ -139,20 +144,22 @@ aside {
   .well {
     margin-top: 20px;
   }
-
 }
 
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
   }
-  .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
     color: white;
   }
-  .navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
+  .navbar-default .nav>li>a,
+  .navbar-default .nav>li>a:focus {
     color: rgba(90, 90, 91, 0.7);
   }
-  .navbar-default .nav>li>a:hover, .navbar-default .nav>li>a:focus:hover {
+  .navbar-default .nav>li>a:hover,
+  .navbar-default .nav>li>a:focus:hover {
     color: white;
   }
   .navbar-default.affix {
@@ -163,16 +170,18 @@ aside {
     color: #FF5A5A;
     font-size: 14px;
   }
-  .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #eb3812;
   }
-  .navbar-default.affix .nav>li>a, .navbar-default.affix .nav>li>a:focus {
+  .navbar-default.affix .nav>li>a,
+  .navbar-default.affix .nav>li>a:focus {
     color: #222222;
   }
-  .navbar-default.affix .nav>li>a:hover, .navbar-default.affix .nav>li>a:focus:hover {
+  .navbar-default.affix .nav>li>a:hover,
+  .navbar-default.affix .nav>li>a:focus:hover {
     color: #FF5A5A;
   }
-
 }
 
 header {
@@ -296,7 +305,8 @@ header .header-content .header-content-inner p {
   transform: translateY(-50%);
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   padding: 0 15px;
 }
@@ -350,17 +360,41 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open>.dropdown-toggle.btn-default {
   color: #222222;
   background-color: #f2f2f2;
   border-color: #ededed;
 }
 
-.btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+.btn-default:active,
+.btn-default.active,
+.open>.dropdown-toggle.btn-default {
   background-image: none;
 }
 
-.btn-default.disabled, .btn-default[disabled], fieldset[disabled] .btn-default, .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus, .btn-default.disabled:active, .btn-default[disabled]:active, fieldset[disabled] .btn-default:active, .btn-default.disabled.active, .btn-default[disabled].active, fieldset[disabled] .btn-default.active {
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
   background-color: white;
   border-color: white;
 }
@@ -379,17 +413,41 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
   color: white;
   background-color: #ee4b28;
   border-color: #ed431f;
 }
 
-.btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
   background-image: none;
 }
 
-.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
   background-color: #FF5A5A;
   border-color: #FF5A5A;
 }
@@ -445,15 +503,13 @@ body {
   color: #5a5a5b;
 }
 
-
-
 .carousel-inner {
   box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
 }
 
 .carousel .item {
   border-radius: 5px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   overflow: hidden;
   opacity: .5;
 }
@@ -467,7 +523,6 @@ body {
   line-height: 10pt;
   padding: 2px 3px;
   margin: 0 10px 0 0;
-
 }
 
 .main-section-title {
@@ -482,10 +537,10 @@ body {
 }
 
 .main-footer {
-    clear: both;
-    margin-top: 150px;
-    position: relative;
-    border-top: 1px solid white;
-    margin: 0 10px;
-    padding: 30px 0 70px;
+  clear: both;
+  margin-top: 150px;
+  position: relative;
+  border-top: 1px solid white;
+  margin: 0 10px;
+  padding: 30px 0 70px;
 }
